@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sign Up</title>
+	<style type="text/css">
+		body{
+			background-color: #24272E;
+		}
+		label{
+			color: white;
+		}
+		h1{
+			color: white;
+			font-family: monospace;
+			font-size: 50px;
+			text-align: center;
+		}
+		span{
+			font-size: 45px;
+			border:solid white;
+			margin: 20px;
+			border-radius: 4px;
+			width: 200px;
+			color: white;
+			padding: 15px 20px;
+			position: relative;
+
+		}
+		form{
+			font-size: 30px;
+			margin: 50px;
+		}
+	</style>
+</head>
+<body>
+	<a href="homepage.html"><span id="homepage">
+    Fantastic Footballers
+	 </span>
+	</a>
+
+	 <a href="aboutus.html">
+	 <span id="aboutus">
+	 	About us
+	 </span>
+	</a>
+
+	 <a href="faq.html">
+	 <span id="faq">
+	 	FaQ
+	 </span>
+	</a>
+
+	 <a href="signup.html"><span id="signup">
+	 	Sign up
+	 </span>
+	</a>
+	<h1>Sign Up it is FREEEEEEE!!!!!</h1>
+	<form>
+		<label form="firstname">First Name:</label>
+		<input type="text" name="firstname" id="firstname" size="20" placeholder="Enter your name" required>
+		<br>
+		<label form="lastname">Last Name:</label>
+		<input type="text" name="lastname" id="lastname" size="20" placeholder="Enter your last name" required>
+		<br>
+		<label for="gender">Gender:</label>
+		<input type="radio" name="gender" id="male" value="male">
+		<label for="male">Male</label>
+		<input type="radio" name="gender" id="female" value="female">
+		<label for="female">Female</label>
+		<input type="radio" name="gender" id="other" value="other">
+		<label for="other">Other</label>
+		<br>
+		<label form="email/phone">Email/phonenumber:</label>
+		<input type="text" name="email/phone" size="30">
+		<br>
+		<label for="pwd">Password:</label>
+		<input type="Password" name="pwd" id="pwd">
+		<br>
+		<label for="pwd">Comfirm Password:</label>
+		<input type="Password" name="pwd" id="pwd">
+		<br>
+		<input type="submit">
+		<input type="reset">
+		<input type="button" onclick="alert('Thanks for signing up!')" value="special message">
+
+		
+	</form>
+
+</body>
+</html>
